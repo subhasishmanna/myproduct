@@ -1,0 +1,101 @@
+/*
+Theme Name: Moderna
+Theme URI: https://wordpress.org/themes/twentyfifteen/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
+Version: 1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: twentyfifteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+.navbar .nav > li > a.logout {
+  color: red;
+  text-shadow: none;
+position:absolute;
+left: 497px;
+top: -13px;
+}
+.navbar .nav > li > a.logout:hover {
+  color: green;
+
+}
+#loginform{
+/* visibility: hidden;
+  opacity: 0; 
+ */
+position:absolute;
+left:380px;
+top:10px;
+background:red;
+width:200px;
+float:right;
+}
+.pswd, .nm{
+width:80px;
+}
+.index-posts .index-posts-heading h2 a{
+  color: black;
+}.index-posts .index-posts-heading h2 a:hover{
+  color: pink;
+  font-size:80px;
+}
+.posts .col-md-9{height:auto;}
+.index-posts {}
+.index-posts .index-posts-heading {}
+.index-posts .index-posts-heading h2{}
+.index-posts .index-posts-exc{}
+.index-posts .index-posts-exc p{}
+
+#thumbs li{
+  list-style-type: none;
+  max-width: 25%;
+  float: right;
+}
+
+:
+/* .progress-bar.piku{
+background-color:black;
+
+} */
+/*phone no header*/
+ul.phone{list-style:none; position:relative;}
+.phone li i{  position: absolute;top: 13px;left: -25px;}
+
+
+/*Socila header*/
+ul.social-lnk{list-style:none;}
+.social-lnk{float:right;}
+.social-lnk li i{margin-left:8px;}
+
+
+/*Remove default styling from gravity forms */
+body .gform_wrapper form .gform_body ul,
+body .gform_wrapper form .gform_body ul li {
+list-style-type: none !important;
+list-style-image: none !important;
+list-style: none !important;
+background-image: none !important;
+background: none !important;
+padding: 0 !important;
+margin: 0 !important;
+border: none !important
+}
+body .gform_wrapper form .gform_body ul > li:before {
+content: “”;
+}
+
+/*Style the form wrapper */
+body #gform_wrapper_1
+{
+margin-left: 5%;
+}
+.gform_wrapper ul.gform_fields li.gfield{
+display: block;
+float: left;
+width: 40%;
+}

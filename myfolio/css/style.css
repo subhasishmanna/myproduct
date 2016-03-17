@@ -1,0 +1,116 @@
+html{margin:0; padding:0;}
+.{margin:0; padding:0;}
+body{font-family: 'Open Sans', sans-serif; font-size:14px; color:#7e8287;}
+h1, h2, h3, h4, h5, h6, p{margin:0}
+ul{margin:0; padding:0; list-style:none; }
+a:hover{text-decoration:none;}
+/*
+=========================
+Header Area
+=========================
+*/
+
+.column{ margin:0 auto; display:inline-bolack;}
+.header_area{background-color:#02918C; min-height:62px;}
+.float_left{float:left;}
+.float_right{float:right;}
+.fix{overflow:hidden;}
+
+.header{}
+.logo{}
+.logo a{}
+.logo a h1{color:#fff; font-size:26px; font-weight:900; text-transform:uppercase; margin-top:16px;}
+.logo a h1 span{color:#cfc91d;}
+.mainmenu{ margin-top:25px;}
+.mainmenu ul#nav{}
+.mainmenu ul#nav li{display:inline-block; padding:0 30px 0 0;}
+.mainmenu ul#nav li a{color:#fff; text-transform:uppercase; font-size:12px; font-weight:900;}
+.mainmenu ul#nav li a:hover{font-size:16px; color:#CACAFA;}
+.mainmenu ul#nav li a i{padding-right:5px;  color:rgba(255, 255, 255, .4); font-size:16px;}
+/*
+=========================
+Welcome Text Area
+=========================
+*/
+
+.welcome_text_area{background:url(../img/welcometext_bg.jpg) no-repeat scroll center center / cover; color:#fff; min-height:450px;}
+.welcome_text_area .column{}
+.welcome_text_area .welcome_text {font-weight:900; text-align:center;}
+.welcome_text_area .welcome_text h4{font-size:30px; padding-top:120px;}
+.welcome_text_area .welcome_text h1{font-size:68px; text-transform:uppercase; letter-spacing:5px; padding:10px 0 0 0;}
+.welcome_text_area .welcome_text p{font-size:16px; margin-bottom:20px; padding-bottom:51px;}
+.welcome_text_area .welcome_text a{background:#cfc91d; color:#262816; padding:8px 15px; font-size:14px; text-transform:uppercase; letter-spacing:1px; font-weight:900; position:relative;}
+.welcome_text_area .welcome_text a:before{    content: "}";
+    position: absolute;
+    top: -95px;
+    left: 55px;
+    font-size:100px;
+    color: #fff;
+    font-weight:100;
+	-webkit-font-smoothing:antialiased;
+	
+    transform: rotate(90deg);}
+	
+	
+/*
+=========================
+Promo Area
+=========================
+*/
+
+.promo_area{margin:100px 0;}
+.promo_area .promo_area_text{text-align:center; margin-bottom:75px;}
+.promo_area .promo_area_text h1{color:#02918c; font-size:46px; font-weight:900; margin-bottom:70px;}
+.promo_area .promo_area_text p{color:#7e8287; font-size:16px;}
+.promo_area .promo_area_text p span{font-size:23px;}
+.promo_area .promo_list{border-right:1px solid #d9dbdb;}
+.promo_area .promo_list:nth-child(5){border-right:0;}
+.promo_area .promo_list .promo_icon{text-align: center; margin-bottom:20px; color:#219e9a; font-size:30px;}
+.promo_area .promo_list .promo_icon i{}
+.promo_area .promo_list h5{text-align:center; margin-bottom:20px; font-weight:700; font-size:16px; color:#7e8287;}
+.promo_area .promo_list p{}
+
+
+/*
+=========================
+Service Area
+=========================
+*/
+.service{background:url(../img/service_bg.jpg) no-repeat scroll center center / cover; margin-bottom:60px;}
+.service .column{margin-top:60px;}
+.service .column .col-md-6.col-lg-6{}
+.service .column .col-md-6.col-lg-6 h1{color:#02918c; font-size:30px; font-weight:900; margin-bottom:50px;}
+.service .column .col-md-6.col-lg-6 p{font-size:14px; margin-bottom:50px;}
+.service .column .col-md-6.col-lg-6 .col-md-6.col-lg-6{}
+.service .column .col-md-6.col-lg-6 .col-md-6.col-lg-6 .icon{text-align:left; margin-bottom:10px; color:#219e9a; font-size:20px;}
+.service .column .col-md-6.col-lg-6 .col-md-6.col-lg-6 .icon i{}
+.service .column .col-md-6.col-lg-6 .col-md-6.col-lg-6 .icon img{width:20px; height:20px;}
+.service .column .col-md-6.col-lg-6 .col-md-6.col-lg-6 h4{font-size:12px; font-weight:700;}
+.service .column .col-md-6.col-lg-6 .col-md-6.col-lg-6 p{font-size:12px;}
+
+/*
+=========================
+My Work Area
+=========================
+*/
+.my_work{margin-bottom:60px;}
+.my_work .column{}
+.my_work .column .my_work_text{ margin-bottom:60px; line-height:15px;}
+.my_work .column .my_work_text h1{color:#02918c; font-size:30px; font-weight:900; margin-bottom:50px; text-align:center;}
+.my_work .column .my_work_text p{text-align:center;}
+.my_work .column .my_work_img{ margin:0;padding:0; }
+.my_work .column .my_work_img.col-lg-3.col-md-3{ margin:-2px  0;padding:0;  display:block; }
+.my_work .column .my_work_img img{max-width:100%; max-height:100%; }
+
+/*
+=========================
+Contact Me Area
+=========================
+*/
+div.contact_me{}
+div.contact_me .column{}
+div.contact_me .column .contact_me_text{ line-height:15px;}
+div.contact_me .column .contact_me_text h1{color:#02918c; font-size:30px; font-weight:900; margin-bottom:50px; text-align:center;}
+div.contact_me .column .contact_me_text p{text-align:center;}
+.contact_me_field{background:#0b0b0b;}
+.contact_me_field .column{}

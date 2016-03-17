@@ -1,0 +1,27 @@
+1.install plugin
+
+2. Add on wp_nev_menu where menu is build(commonly its found on theme function.php file) 'wlaker'=> new wp_bootstrap_navwalker 
+
+Or
+
+creat custom menu and add 'wlaker'=> new wp_bootstrap_navwalker when custom menu creat.
+
+Use 
+==========
+(write it on title Attribute.)
+A. divider
+
+B.dropdown-header
+
+c. disabled
+
+for Icon (Glyphicons )
+=======================
+(write it on title Attribute.)
+A. Add Icon (http://getbootstrap.com/components/#glyphicons)
+
+
+==============================================
+You can customize more
+
+http://getbootstrap.com/components/#navbar-default

@@ -1,0 +1,410 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Yeseva One', cursive;
+}
+html,
+body {
+    height: 100%;
+    font-family: 'Gentium Book Basic', serif;
+    position: relative;
+}
+a {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+a:hover { text-decoration: none }
+/*
+===============================
+HEADER AREA
+===============================
+*/
+.top-area-bg { }
+.text-center h2 { background: url(img/divider.png) }
+.top-area { position: relative }
+div.logo img { height: 80px }
+.top-area-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.mainmenu { position: relative }
+.mainmenu ul.nav.navbar-nav {
+    float: none;
+    font-size: 15px;
+    text-align: right;
+}
+ul.nav.navbar-nav li {
+    color: #fff;
+    display: inline-block;
+    float: none;
+    position: relative;
+}
+ul.nav.navbar-nav li a:focus { background: none }
+.sticky ul.nav.navbar-nav li.active a { color: #d8bc6d }
+.nav.navbar-nav a { color: #fff }
+.nav.navbar-nav a:hover { background: none }
+ul.nav.navbar-nav li.active:before {
+    background: #c7c4bd none repeat scroll 0 0;
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    content: "";
+}
+.nav.navbar-nav a { padding: 34px 0px 34px 18px }
+.top-area .carousel {
+    position: relative;
+    margin-top: -13px;
+    width: 100%;
+    margin-bottom: -35px;
+}
+.slide-bg-2 { background: url(img/headerbg.jpg) }
+.slide-bg-1 { background: url(img/text-6.jpg) }
+.header-area {
+    background: black;
+    opacity: .2;
+}
+.sticky .header-area {
+    position: absolute;
+    width: 100%;
+    z-index: 9999;
+}
+.header-text-area {
+    position: relative;
+    padding-top: 10px;
+}
+.header-text-area h2 {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 54px;
+    padding-bottom: 60px;
+}
+.btn-filled {
+    color: #fff;
+    display: inline-block;
+    margin: 0 6px;
+    padding: 7px 29px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.btn-filled::after {
+    background: #151512 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.btn-transparent {
+    color: #fff;
+    display: inline-block;
+    margin: 0 6px;
+    padding: 7px 29px;
+    position: relative;
+    text-transform: uppercase;
+    z-index: 1;
+}
+.btn-transparent::after {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.header-text-area { padding: 70px 0 }
+.social-links {
+    display: inline-block;
+    position: absolute;
+    right: -66px;
+    top: 33px;
+}
+.social-links li a {
+    color: #c8a43a;
+    margin: 0 2px;
+}
+.social-links li { display: inline-block }
+.section-padding { padding: 80px 0 }
+h2.section-title {
+    background: rgba(0, 0, 0, 0) url("img/divider-orange.png") no-repeat scroll center bottom;
+    color: #c8a43a;
+    margin-bottom: 30px;
+    padding-bottom: 29px;
+}
+h2.section-title1 {
+    background: rgba(0, 0, 0, 0) url("img/divider.png") no-repeat scroll center bottom;
+    color: #c8a43a;
+    margin-bottom: 30px;
+    padding-bottom: 29px;
+}
+h2.section-title2 {
+    background: rgba(0, 0, 0, 0) url("img/divider-small-orange.png") no-repeat scroll center bottom;
+    color: #c8a43a;
+    margin-bottom: 30px;
+    padding-bottom: 29px;
+}
+h2.section-title3 {
+    background: rgba(0, 0, 0, 0) url("img/divider2.png") no-repeat scroll center bottom;
+    color: #c8a43a;
+    margin-bottom: 30px;
+    padding-bottom: 29px;
+}
+h2.section-title4 {
+    background: rgba(0, 0, 0, 0) url("img/divider4.png") no-repeat scroll center bottom;
+    color: #fff;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.about-ara {
+    background: url(img/pattern.jpg) no-repeat scroll center center;
+    max-height: 600px;
+}
+.about-text.text-center {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.author-photo.signeture { margin-top: 15px }
+.igredients-area { position: relative }
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.igredients-bg {
+    background-image: url(img/igredients-bg.jpg);
+    background-attachment: fixed;
+}
+.ingredients-text.text-center {
+    position: relative;
+    z-index: 1;
+}
+.ingredients-text.text-center::before {
+    background: black none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.ingredients-text { padding: 10px 0 }
+.ingredients-text.text-center h2 {
+    padding: 20px 0 50px 0;
+    color: #fff;
+}
+.ingredients-text.text-center p { color: #fff }
+.food-menu-area { background: url(img/food-menu-.jpg) no-repeat scroll center center }
+h2.section-title2.food-menu-sec-title {
+    font-size: 21px;
+    margin-bottom: 8px;
+}
+.single-menu-food-item > h2 {
+    color: #cc9900;
+    font-size: 16px;
+    border-bottom: 1px solid #cc9900;
+    text-align: left;
+    position: relative;
+}
+.single-menu-food-item  span {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.food-menu-area { padding: -2px 0 }
+.section-title2.food-menu-sec-title { }
+.food-menu-area .row { margin: 49px 0 }
+.single-menu-food-item > p { text-align: left }
+div.single-menu-food-item { margin: 5px }
+div.single-menu-food-item.special { border: 1px solid #cc9900 }
+.special { position: relative }
+.special:before {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    content: "Special";
+    font-size: 14px;
+    color: #fff;
+    background: #cc9900;
+}
+.review-bg { background-image: url(img/review-bg.jpg) }
+.reviews-area { position: relative }
+.tesimonial {
+    position: relative;
+    z-index: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-left: 30px;
+}
+.tesimonial:before {
+    position: absolute;
+    background: black;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.6;
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+.tesimonial p {
+    font-size: 16px;
+    color: white;
+}
+.tesimonial p.client_review {
+    position: relative;
+    margin-left: 15px;
+}
+.tesimonial p.client_review:before {
+    position: absolute;
+    top: -10px;
+    left: -18px;
+    content: "\f10d";
+    color: #a0a29c;
+    font-size: 22px;
+    text-align: left;
+    font-family: fontAwesome;
+}
+.item { padding: 14px 10px }
+.tesimonial h2.section-title1 { padding-bottom: 50px }
+.reservations-area { position: relative }
+.reservations-bg {
+    background-image: url(img/food-menu-.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.footer-area { position: relative }
+.footer-bg {
+    background-image: url(img/footerbg.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.reservations-area h2.section-title2 { font-size: 27px }
+.reservations-area .col-md-5.col-sm-5.col-lg-5.col-md-offset-1.col-sm-offset-1.col-lg-offset-1.text-center > p { font-size: 15px }
+form.reservations-form { margin-top: 15px }
+.reservations-form input[type="text"],
+.reservations-form input[type="email"],
+.reservations-form select {
+    border: 1px solid gray;
+    height: 27px;
+    width: 177px;
+    margin: 5px 0;
+}
+.reservations-form button.text-center {
+    background: #c9a131;
+    padding: 3px 27px;
+    margin-top: 15px;
+}
+.reservations-form label { color: #c9a131 }
+.footer-area { font-size: 16px }
+.footer-area .row.text-center { color: #929292 }
+.footer-area .section-title4 { padding-bottom: 25px }
+.footer-area .icon i {
+    padding: 0 4px;
+    color: #fff;
+}
+.footer-area strong { color: #fff }
+.footer-area .address { color: #fff }
+/*
+=============================
+sticky header 
+============================
+
+*/
+.header-area.sticky {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: black;
+    opacity: 0.66;
+}
+.header-area,
+div.logo img,
+.mainmenu,
+.social-links,
+.nav.navbar-nav a { transition: 1s }
+.sticky div.logo img {
+    width: 100px;
+    height: 50px;
+}
+.sticky .nav.navbar-nav a { padding: 9px 0px 27px 18px }
+.sticky .mainmenu { margin-top: 10px }
+.sticky .social-links {
+    display: inline-block;
+    position: absolute;
+    right: -66px;
+    top: 8px;
+}
+.shifted { margin: 0 auto }
+/*
+
+carousel 
+*/
+.top-area a.right.fawesome-control,
+.top-area a.left.fawesome-control {
+    clear: both;
+    font-size: 87px;
+    color: white;
+    margin-top: -310px;
+    opacity: .5;
+    z-index: 9999;
+}
+.top-area a.right.fawesome-control {
+    float: right;
+    margin-right: 8px;
+}
+.top-area a.left.fawesome-control {
+    float: left;
+    margin-left: 8px;
+}
+.top-area a.left.fawesome-control:hover,
+.top-area a.right.fawesome-control:hover { opacity: 1 }

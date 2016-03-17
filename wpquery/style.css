@@ -1,0 +1,9 @@
+/*
+Theme Name:     WP Query
+Description:    Child theme for the Twenty Twelve theme 
+Author:         Zac Gordon
+Template:       twentytwelve
+Version:        1.0
+*/
+
+@import url(../twentytwelve/style.css);
